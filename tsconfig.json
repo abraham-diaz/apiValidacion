@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",          // Versión de JavaScript de salida
+    "module": "commonjs",        // Sistema de módulos para Node.js
+    "outDir": "./dist",          // Carpeta de salida para el código compilado
+    "rootDir": "./src",          // Carpeta raíz del código fuente
+    "esModuleInterop": true,     // Mejora la interoperabilidad entre módulos
+    "strict": true,              // Habilita comprobaciones estrictas de tipo
+    "skipLibCheck": true,        // Omite la verificación de tipos en los archivos de declaración
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"],       // Archivos a compilar
+  "exclude": ["node_modules"]
+}
