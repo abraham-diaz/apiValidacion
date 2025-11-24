@@ -9,6 +9,6 @@
     "skipLibCheck": true,        // Omite la verificación de tipos en los archivos de declaración
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/**/*"],       // Archivos a compilar
+  "include": ["src/**/*", "prisma"],       // Archivos a compilar
   "exclude": ["node_modules"]
 }
